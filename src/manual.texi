@@ -1,0 +1,47 @@
+\input texinfo
+@setfilename manual
+@settitle 3DViewer_v1.0
+@documentencoding UTF-8
+
+@ifnottex
+@node Top
+@top 3DViewer_v1.0
+@insertcopying
+@end ifnottex
+
+@chapter Функции приложения 3DViewer v1.0
+
+В программе реализованы следующие функции:
+@enumerate
+@item
+Загрузка каркасной модели в формате obj 
+@item
+Перемещение модели на заданное расстояние относительно осей X, Y, Z
+@item
+Поворот модели на заданный угол относительно своих осей X, Y, Z
+@item
+Масштабирование модели
+@item
+Выбор типа проекции (параллельная и центральная)
+@item
+Выбор типа, цвета и толщины ребер
+@item
+Выбор типа, цвета и размера вершинж
+@item
+Выбор цвета фона
+@item
+Сохранение полученных ("отрендеренных") изображений в файл
+@item
+Запись пользовательских аффинных преобразований в gif-анимацию
+@end enumerate
+
+
+@chapter Установка приложения
+@enumerate
+@item
+Для установки запустите команду make install из папки src
+@item
+Для удаления запустите команду make uninstall из папки src
+@end enumerate
+
+@bye

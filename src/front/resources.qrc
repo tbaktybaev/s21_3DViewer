@@ -1,0 +1,8 @@
+<!DOCTYPE RCC>
+<RCC version="1.0">
+  <qresource>
+    <file>assets/Viewer.icns</file>
+    <file>assets/paintbrush.icns</file>
+    <file>assets/eye.icns</file>
+  </qresource>
+</RCC>
